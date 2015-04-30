@@ -1,5 +1,5 @@
 var imgSpin = function (whereToID, imageURL, frameHeight, frameStart, speed) {
-console.log("imgSpin");
+console.log("");
 
     var totalFrames = 0,
         mdown = false,
