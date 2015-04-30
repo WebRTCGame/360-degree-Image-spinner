@@ -52,7 +52,8 @@ console.log("imgSpin");
         elControl.style.height = el.style.height;
 
         el.appendChild(elControl);
-        document.body.insertBefore(el, document.getElementById(whereToID));
+        var wTI = document.getElementById(whereToID);
+        wTI.parentElement.insertBefore(el, document.getElementById(whereToID));
 
     }
     img.src = imageURL;
