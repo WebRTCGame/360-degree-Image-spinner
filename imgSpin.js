@@ -53,7 +53,7 @@ console.log("");
 
         el.appendChild(elControl);
         var wTI = document.getElementById(whereToID);
-        wTI.parentElement.insertBefore(el, document.getElementById(whereToID));
+        wTI.parentElement.insertBefore(el, wTI);
 
     }
     img.src = imageURL;
